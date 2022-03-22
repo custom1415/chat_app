@@ -88,6 +88,17 @@
         </div>
       </div>
     </section>
-    <script src="./index.js"></script>
+    <script>
+      const hideLoading = () => {
+  const loading = document.querySelector(".loading_screen");
+  setTimeout(() => {
+ 
+    loading.style.display = "none";
+  }, 3000);
+};
+
+window.onload = hideLoading;
+
+    </script>
   </body>
 </html>
