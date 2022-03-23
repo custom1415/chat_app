@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Futura";
+}
+body {
+  max-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  /* background-color: #6c5ce7; */
+}
+.loading_screen {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading_screen img {
+  width: 300px;
+  height: 300px;
+}
+li {
+  list-style: none;
+}
+.lockSection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  height: 100vh;
+}
+/* 
+ */
+/* 
+
+
+
+
+
+  */
+.sideBar {
+  width: 50px;
+  background-color: #f4f4f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  position: relative;
+  bottom: 3rem;
+  background-color: blue;
+  padding: 0.3rem 0.5rem;
+  border-radius: 9px;
+  /* border: 2px solid black; */
+}
+.logo i {
+  color: white;
+}
+.icons ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* bottom: 5rem; */
+}
+.icons ul li {
+  margin: 0.5rem 0;
+}
+.info_exit {
+  position: relative;
+  top: 3rem;
+}
+/* 
+
+
+
+
+
+ */
+.chat {
+  /* border: 2px solid black; */
+  flex: 1.7;
+}
+.groupDetails {
+  /* border: 2px solid black; */
+  flex: 1;
+}
+.onlineFriends {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* border: 2px solid black; */
+  flex: 0.7;
+
+  /* border: 2px solid black; */
+}
+.onlineFriends .userInfo {
+  padding: 1rem;
+  display: flex;
+  /* border: 2px solid black; */
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  /* height: 100%; */
+}
+.userInfo {
+  padding-left: 1rem;
+}
+.pfp {
+  width: 2.2rem;
+  height: 2.2rem;
+  position: relative;
+}
+
+.user {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.user p {
+  color: gray;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  position: relative;
+  bottom: 2px;
+}
+.pfp img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.online {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.online-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgBox {
+  width: 2.2rem;
+  height: 2.2rem;
+  position: relative;
+}
+.imgBox img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
